@@ -30,11 +30,11 @@
 <br/>
 
 ````js
- <BrowserRouter>
-    <Routes>
-      <Route path='/' element={<Home />} />
-    </Routes>
-    </BrowserRouter>
+<BrowserRouter>
+  <Routes>
+    <Route path='/' element={<Home />} />
+  </Routes>
+</BrowserRouter>
 ````
 
 해당 코드를 통해 `Home` 컴포넌트를 설정하였음.      

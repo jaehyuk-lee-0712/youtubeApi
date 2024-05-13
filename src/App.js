@@ -14,6 +14,8 @@ import Search from './pages/Search';
 import Not from './pages/Not';
 
 
+
+
 const App = () => {
   return (
     <BrowserRouter>
@@ -30,7 +32,6 @@ const App = () => {
       <Route path='/video' element={<Video />} />
       <Route path='/search' element={<Search />} />
       <Route path='/*' element={<Not />} />
-
     </Routes>
     </BrowserRouter>
   )
