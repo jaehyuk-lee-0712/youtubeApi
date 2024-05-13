@@ -22,6 +22,25 @@
 
 ## 프로젝트 실행
 
+`import { BrowserRouter, Route, Routes } from 'react-router-dom'` :   
+설치한 라이브러리를 import하여 Home.jsx를 연동함.   
+`BrowserRouter` : 클라이언트 측 라우팅   
+`Routes ,Route` : 컴포넌트 렌더링   
+
+<br/>
+
+````js
+ <BrowserRouter>
+    <Routes>
+      <Route path='/' element={<Home />} />
+    </Routes>
+    </BrowserRouter>
+````
+
+해당 코드를 통해 `Home` 컴포넌트를 설정하였음.      
+`/` paht는 사이트의 `main` 혹은 홈화면을 뜻함.
+
+
 ## 트러블 슈팅
 -- npx create-react-app . 명령어 실행 시 에러발생 :   
 검색 결과 npm 폴더가 자동으로 생성되지 않아 에러가 발생함.   
